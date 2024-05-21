@@ -1,0 +1,12 @@
+:root {
+  --MAIN_DARK: #171616;
+
+  --MAIN_BLUE: #00ffff;
+  --BACKGROUND_BLUE: #1fb4b4;
+  --MAIN_PINK: #c93e7b;
+  --BACKGROUND_PINK: #9b2e5e;
+  --MAIN_GRAY: #eaeaeb;
+
+  --MAIN_FONT: "Public Sans", Arial, Helvetica, sans_serif;
+  --SECOND_FONT: "Pixelify", Times, "Times New Roman", serif;
+}
