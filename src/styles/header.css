@@ -7,12 +7,6 @@ header {
   padding: 28px 8%;
 }
 
-.btn-default {
-  padding: 0.5rem 1rem;
-  background-color: transparent;
-  border: 2px solid var(--MAIN_PINK);
-}
-
 #navbar {
   width: 100%;
   display: flex;
@@ -31,4 +25,69 @@ header {
 .nav-list {
   display: flex;
   gap: 48px;
+}
+
+/* configs nav-items */
+
+.nav-item.active a {
+  font-weight: 600;
+  color: var(--MAIN_PINK);
+  text-shadow: 0 0 5px var(--MAIN_PINK);
+}
+
+.nav-item {
+  transition: color 0.3s ease;
+}
+
+.nav-item a:active {
+  color: var(--SECOND_PINK);
+}
+
+.nav-item:hover {
+  color: var(--MAIN_PINK);
+}
+
+/* configs buttons */
+
+.btn-default {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: 2px solid var(--MAIN_PINK);
+  transition: box-shadow 0.2s ease;
+}
+
+.btn-default:hover {
+  box-shadow: 0px 0px 10px 3px rgba(201, 62, 123, 0.3);
+}
+
+/* hide mobile */
+
+#mobile-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  background-color: transparent;
+  border: 2px solid var(--MAIN_PINK);
+  display: none;
+}
+
+#mobile-menu {
+  display: none;
+}
+
+@media screen and (max-width: 1170px) {
+  .nav-list,
+  #navbar .btn-default {
+    display: none;
+  }
+
+  #mobile-btn {
+    display: block;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
 }
