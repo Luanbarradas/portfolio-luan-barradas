@@ -3,8 +3,7 @@
 @import url("./../global_css/global.css");
 
 header {
-  width: 100%;
-  padding: 28px 8%;
+  margin: 28px 8%;
 }
 
 #navbar {

@@ -1,0 +1,47 @@
+@import url("./../global_css/variables.css");
+@import url("./../global_css/reset.css");
+@import url("./../global_css/global.css");
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin: 8%;
+}
+
+main img {
+  width: 31rem;
+}
+
+h1 {
+  color: var(--MAIN_BLUE);
+}
+
+.text-main-container {
+  width: 31rem;
+  height: 31rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container button:first-child {
+  margin-right: 40px;
+}
+
+.btn-blue {
+  border: 2px solid var(--MAIN_BLUE);
+  color: var(--MAIN_PINK);
+  font: 1.125rem var(--SECOND_FONT);
+  font-variant: small-caps;
+}
+
+.btn-pink {
+  color: var(--MAIN_BLUE);
+  font: 1.125rem var(--SECOND_FONT);
+  font-variant: small-caps;
+}
