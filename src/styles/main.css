@@ -30,18 +30,20 @@ h1 {
 }
 
 .btn-container button:first-child {
-  margin-right: 40px;
+  margin-right: 2.5rem;
 }
 
 .btn-blue {
-  border: 2px solid var(--MAIN_BLUE);
+  border: 0.125rem solid var(--MAIN_BLUE);
   color: var(--MAIN_PINK);
-  font: 1.125rem var(--SECOND_FONT);
+  font-family: var(--SECOND_FONT);
+  font-size: 1.125rem;
   font-variant: small-caps;
 }
 
 .btn-pink {
   color: var(--MAIN_BLUE);
-  font: 1.125rem var(--SECOND_FONT);
+  font-family: var(--SECOND_FONT);
+  font-size: 1.125rem;
   font-variant: small-caps;
 }
