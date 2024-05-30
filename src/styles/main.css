@@ -2,7 +2,7 @@
 @import url("./../global_css/reset.css");
 @import url("./../global_css/global.css");
 
-main {
+.container-top-main {
   display: flex;
   justify-content: space-between;
   margin: 8%;
