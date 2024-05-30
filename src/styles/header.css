@@ -46,19 +46,6 @@ header {
   color: var(--MAIN_PINK);
 }
 
-/* configs buttons */
-
-.btn-default {
-  padding: 0.5rem 1rem;
-  background-color: transparent;
-  border: 0.125rem solid var(--MAIN_PINK);
-  transition: box-shadow 0.2s ease;
-}
-
-.btn-default:hover {
-  box-shadow: 0px 0px 0.625rem 0.1875rem rgba(201, 62, 123, 0.3);
-}
-
 /* hide mobile */
 
 #mobile-btn {

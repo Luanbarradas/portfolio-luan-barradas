@@ -2,10 +2,15 @@
 @import url("./../global_css/reset.css");
 @import url("./../global_css/global.css");
 
+main {
+  margin: 8%;
+}
+
+/* top main */
+
 .container-top-main {
   display: flex;
   justify-content: space-between;
-  margin: 8%;
 }
 
 main img {
@@ -13,6 +18,8 @@ main img {
 }
 
 h1 {
+  font-size: 3rem;
+  font-variant: small-caps;
   color: var(--MAIN_BLUE);
 }
 
@@ -33,17 +40,39 @@ h1 {
   margin-right: 2.5rem;
 }
 
-.btn-blue {
-  border: 0.125rem solid var(--MAIN_BLUE);
-  color: var(--MAIN_PINK);
-  font-family: var(--SECOND_FONT);
-  font-size: 1.125rem;
-  font-variant: small-caps;
+/* main center */
+
+.about-me {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.btn-pink {
-  color: var(--MAIN_BLUE);
-  font-family: var(--SECOND_FONT);
-  font-size: 1.125rem;
+.about-me-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 31rem;
+  height: 31rem;
+}
+
+.about-me-text h2 {
   font-variant: small-caps;
+  font-size: 3rem;
+  font-family: var(--SECOND_FONT);
+  color: var(--MAIN_BLUE);
+}
+
+.about-me-text p {
+  font-size: 1.5rem;
+}
+
+.container-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40rem;
+  height: 31rem;
+  background-color: var(--SECOND_PINK);
 }

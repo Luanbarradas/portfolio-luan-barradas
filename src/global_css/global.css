@@ -1,3 +1,29 @@
 body {
   background-color: var(--MAIN_DARK);
 }
+
+/* configs buttons */
+
+.btn-default {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: 0.125rem solid var(--MAIN_PINK);
+  font-family: var(--SECOND_FONT);
+  font-variant: small-caps;
+  transition: box-shadow 0.2s ease;
+}
+
+.btn-default:hover {
+  box-shadow: 0px 0px 0.625rem 0.1875rem rgba(201, 62, 123, 0.3);
+}
+
+.btn-blue {
+  border: 0.125rem solid var(--MAIN_BLUE);
+  color: var(--MAIN_PINK);
+  font-size: 1.125rem;
+}
+
+.btn-pink {
+  color: var(--MAIN_BLUE);
+  font-size: 1.125rem;
+}
