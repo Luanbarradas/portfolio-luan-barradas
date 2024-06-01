@@ -72,7 +72,43 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40rem;
+  width: 44rem;
   height: 31rem;
   background-color: var(--SECOND_PINK);
+}
+
+.container-btn {
+  align-self: center;
+}
+
+/* tools skills */
+
+.tools-skills {
+  background-color: var(--BACKGROUND_BLUE);
+  padding: 5rem 0;
+  margin-top: 10rem;
+}
+
+.container-divs-skills {
+  margin: 0 8%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skills {
+  background-color: var(--MAIN_BLUE);
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20%;
+}
+
+.skills img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+  display: block;
 }
