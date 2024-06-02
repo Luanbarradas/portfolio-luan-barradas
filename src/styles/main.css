@@ -84,18 +84,20 @@ h1 {
 /* tools skills */
 
 .tools-skills {
-  background-color: var(--BACKGROUND_BLUE);
+  background-color: var(--MAIN_BLUE);
   padding: 5rem 0;
   margin-top: 10rem;
 }
 
-.container-divs-skills {
+/* .container-divs-skills {
   margin: 0 8%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
+  flex-wrap: wrap;
+  text-align: center;
+} */
+/* 
 .skills {
   background-color: var(--MAIN_BLUE);
   width: 150px;
@@ -104,11 +106,26 @@ h1 {
   align-items: center;
   justify-content: center;
   border-radius: 20%;
+} */
+
+.container-divs-skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.skills img {
-  width: 70%;
-  height: 70%;
-  object-fit: contain;
-  display: block;
+.skills {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skills p {
+  margin-top: 5px;
+  align-self: center;
+  color: var(--BACKGROUND_BLUE);
+  font-size: 18px;
+  font-weight: 600;
 }
