@@ -57,7 +57,8 @@ h1 {
   height: 31rem;
 }
 
-.about-me-text h2 {
+.about-me-text h2,
+.projects h2 {
   font-variant: small-caps;
   font-size: 3rem;
   font-family: var(--SECOND_FONT);
@@ -128,4 +129,27 @@ h1 {
   color: var(--BACKGROUND_BLUE);
   font-size: 18px;
   font-weight: 600;
+}
+
+.projects {
+  margin: 5% 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projects h2,
+.projects p {
+  align-self: flex-start;
+}
+
+.projects p {
+  font-variant: small-caps;
+  color: var(--SECOND_PINK);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.projects img {
+  width: 50%;
 }
