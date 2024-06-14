@@ -163,7 +163,7 @@ h1 {
 /* tools skills */
 
 .tools-skills {
-  background-color: var(--MAIN_BLUE);
+  background-color: var(--BACKGROUND_BLUE);
   padding: 5rem 0;
   margin-top: 10rem;
 }
@@ -204,7 +204,7 @@ h1 {
 .skills p {
   margin-top: 5px;
   align-self: center;
-  color: var(--BACKGROUND_BLUE);
+  color: var(--MAIN_BLUE);
   font-size: 18px;
   font-weight: 600;
 }
