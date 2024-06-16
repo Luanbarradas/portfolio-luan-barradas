@@ -231,3 +231,20 @@ h1 {
 .projects img {
   width: 50%;
 }
+
+footer img {
+  width: 2rem;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-rights {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
