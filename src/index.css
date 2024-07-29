@@ -1,6 +1,6 @@
-@import url("./src/style/variables.css"); /* variaveis */
-@import url("./src/style/reset.css"); /* resets */
-@import url("./src/style/global.css"); /* global */
+@import url("./style/variables.css"); /* variaveis */
+@import url("./style/reset.css"); /* resets */
+@import url("./style/global.css"); /* global */
 
 header {
   margin: 1.75rem 8%;
